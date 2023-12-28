@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         
         resultScreen.image = .background
         
-        // 텍스트필드에 keywords에 있는 키워드 검색했을 때도 잘 나오게 하기
+        // 텍스트필드에 keywords에 있는 키워드 검색했을 때도 잘 나오게 해야되는데 잘 안됨
         if searchBar.text == keywords.description {
             resultContent.text = "신조어 내용을 보여줘"
         } else {
@@ -98,6 +98,7 @@ class ViewController: UIViewController {
     
     // 검색 버튼 디자인
     func searchClicked() {
+        // sf symbol 색상 -> withTintColor 적어놓기
         searchButton.setImage(UIImage(systemName: "magnifyingglass")?.withTintColor(.white, renderingMode: .alwaysOriginal), for: .normal)
         searchButton.backgroundColor = .black
         searchButton.setTitle("", for: .normal)
@@ -119,6 +120,7 @@ class ViewController: UIViewController {
         keyword.layer.cornerRadius = 10
         keyword.layer.borderColor = UIColor.black.cgColor
         keyword.layer.borderWidth = 1
+        // 버튼 내 텍스트만큼 사이즈 맞추기 적어놓기
         keyword.sizeToFit()
     }
     
