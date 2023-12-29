@@ -35,7 +35,9 @@ class ViewController: UIViewController {
         resultContent.text = ""
     }
     
-    // 서치바 클릭 시 나오는 키보드에서 return key 눌렀을 때 키보드 내리게 하기
+    @IBAction func shouldReturnKey(_ sender: Any) {
+        print("exit")
+    }
     
     @IBAction func searchButtonClicked(_ sender: UIButton) {
         
