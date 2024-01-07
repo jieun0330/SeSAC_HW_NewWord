@@ -13,6 +13,7 @@
 		C2F944C32B3DA4500092960B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F944C12B3DA4500092960B /* Main.storyboard */; };
 		C2F944C52B3DA4510092960B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F944C42B3DA4510092960B /* Assets.xcassets */; };
 		C2F944C82B3DA4510092960B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F944C62B3DA4510092960B /* LaunchScreen.storyboard */; };
+		C2FF85C22B42DF5100070595 /* NewWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FF85C12B42DF5100070595 /* NewWordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C2F944C42B3DA4510092960B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F944C72B3DA4510092960B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F944C92B3DA4510092960B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FF85C12B42DF5100070595 /* NewWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C2F944C42B3DA4510092960B /* Assets.xcassets */,
 				C2F944C62B3DA4510092960B /* LaunchScreen.storyboard */,
 				C2F944C92B3DA4510092960B /* Info.plist */,
+				C2FF85C12B42DF5100070595 /* NewWordViewController.swift */,
 			);
 			path = SeSAC_HW_NewWord;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C2F944C02B3DA4500092960B /* ViewController.swift in Sources */,
 				C2F944BC2B3DA4500092960B /* AppDelegate.swift in Sources */,
 				C2F944BE2B3DA4500092960B /* SceneDelegate.swift in Sources */,
+				C2FF85C22B42DF5100070595 /* NewWordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
